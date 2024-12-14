@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Transcriber</title>
+</head>
+
+<body>
+    <h1>Speech-to-Text Transcriber</h1>
+    <label for="audioFile">Select an Audio File:</label>
+    <input type="file" id="audioFile" accept="audio/*">
+    <br><br>
+    <button id="transcribe">Transcribe</button>
+    <br><br>
+    <textarea id="output" rows="10" cols="50" placeholder="Transcript will appear here..."></textarea>
+    <script src="./transcriber.js" type="module"></script>
+</body>
+
+</html>
